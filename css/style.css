@@ -1,4 +1,26 @@
-body
-{
-	width:100%;
+body{
+	margin:0px;
+	letter-spacing: 7px;
+}
+#navigation{
+	font-family: 'Raleway', sans-serif;
+	color:black;
+	text-align:center;
+}
+.links a{
+	text-align:center;
+	color:#000;
+}
+.links a:hover{
+	text-decoration:none;
+	color:rgba(0,0,0,.5);
+}
+#title{
+	font-family: 'Cardo', serif;
+	position:relative;
+	z-index:1;
+	text-align:center;
+}
+.spacer{
+	margin-top:15%;
 }
