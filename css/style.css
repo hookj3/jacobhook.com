@@ -1,26 +1,87 @@
-body{
+body,a,a:hover{
 	margin:0px;
 	letter-spacing: 7px;
-}
-#navigation{
+    text-decoration:none;
 	font-family: 'Raleway', sans-serif;
+	color:white;
+}
+a:focus, a:hover {
+    color:rgba(255,255,255,.5);
+    text-decoration: none;
+}
+p{
+	color:white;
+}
+.navigation{
+	text-align: center;
+	z-index:1000;
+}
+.altNav a{
 	color:black;
-	text-align:center;
 }
-.links a{
-	text-align:center;
-	color:#000;
+.altTitle a{
+	font-family: 'Cardo', serif;
+	position:relative;
 }
-.links a:hover{
-	text-decoration:none;
-	color:rgba(0,0,0,.5);
+.altLinks{
+	font-family: 'Raleway', sans-serif;
+}
+a{
+	text-align: center;
 }
 #title{
 	font-family: 'Cardo', serif;
 	position:relative;
-	z-index:1;
+    color:#fff;
+}
+#title a{
+	font-family: 'Cardo', serif;
+}
+.links,a{
+	color:#fff;
+	font-family: 'Raleway', sans-serif;
+}
+.page-titles{
+	text-align:center;
+}
+.page-titles a{
+	font-family: 'Cardo', serif;
 	text-align:center;
 }
 .spacer{
-	margin-top:15%;
+	margin-top:20%;
+}
+#backToTop{
+	float:right;
+}
+.container div{
+	display:none;
+}
+/* media queries */
+@media (max-width: 991px){
+	.spacer{
+		margin-top:35%;
+	}
+}
+@media (max-width: 522px){
+	.spacer{
+		margin-top:50%;
+	}
+}
+/* bootstrap overrides */
+.navbar-fixed-bottom, .navbar-fixed-top{
+	left:95%;
+}
+.navbar-fixed-bottom{
+	bottom:5%;
+}
+.row,.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+	margin:0px;
+	margin-top:2px;
+}
+.carousel-control.right{
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.00001) 0%);
+}
+.carousel-control.left{
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.00001) 0%);
 }

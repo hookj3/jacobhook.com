@@ -1,29 +1,62 @@
-<html>
-<head>
-	<title>Jacob Hook</title>
-	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"></link>
-	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-</head>
-<style type="text/css">
-
-</style>
-<body>
-	<div class="col-md-12">
-		<div class="spacer"></div>
-		<div class="col-md-4 col-md-offset-4">
-			<h1 id="title">Jacob Hook</h1>
-			<div class="col-md-12">
-				<div id="navigation">
-					<div class="links"><a href="work.php">Work</a> | <a href="blog.php">Blog</a> | <a href="contact.php"> Contact</a></div>
-				</div>
-			</div>
+<?php
+include "header.php";
+?>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+<a href="#home" class="backToTop" alt="Back To Top" alt="Back To Top"><img src="img/backToTop.png" class="navbar-fixed-bottom"></a>
+<div id="preload">
+	<img src="img/home.jpg">
+	<img src="img/portfolio.jpg">
+	<img src="img/blog.jpg">
+	<img src="img/contact.jpg">
+</div>
+<main>
+	<section id="slide-1" class="homeSlide" alt="Jacob Hook" title="Jacob Hook">
+		<div class="bcg">
+	    	<div class="hsContainer">
+	    		<div class="spacer"></div>
+	    		<div class="hsContent">
+	    			<div class="navigation">
+						<h1 id="title" alt="Jacob Hook" title="Jacob Hook"><a href="index.php">Jacob Hook</a></h1>
+						<p style="color:white;font-family: 'Raleway', sans-serif;">Website Under Construction</p>
+						<!--div class="links"><a class="links" href="work.php">Work</a> | <a class="links" href="blog.php">Blog</a> | <a class="links" href="contact.php"> Contact</a></div-->
+					</div>
+	    		</div>
+	    	</div>
 		</div>
-	</div>
-</body>
-</html>
+	</section>
+	<!--section id="slide-2" class="homeSlide" alt="Jacob Hook" title="Jacob Hook">
+		<div class="bcg">
+	    	<div class="hsContainer">
+	    		<div class="hsContent">
+	    		<div class="spacer"></div>
+	    			<h2 class="page-titles"><a href="work.php">WORK</a></h2>
+	    		</div>
+	    	</div>
+		</div>
+	</section>
+	<section id="slide-3" class="homeSlide" alt="Jacob Hook" title="Jacob Hook">
+		<div class="bcg">
+	    	<div class="hsContainer">
+				<div class="hsContent">
+	    		<div class="spacer"></div>
+					<h2 class="page-titles"><a href="work.php">BLOG</a></h2>
+	    		</div>
+	    	</div>
+	    </div>
+	</section>
+	<section id="slide-4" class="homeSlide" alt="Jacob Hook" title="Jacob Hook">
+		<div class="bcg">
+	    	<div class="hsContainer">
+				<div class="hsContent">
+	    		<div class="spacer"></div>
+					<h2 class="page-titles"><a href="work.php">CONTACT</a></h2>
+	    		</div>
+	    	</div>
+	    </div>
+	</section-->
+</main>
+<?php
+include "footer.php";
+?>
