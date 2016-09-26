@@ -1,6 +1,7 @@
 <?php
 include "header.php";
 ?>
+<body class="loading mainContainer" id="home">
 <!--[if lt IE 7]>
 <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 <![endif]-->
@@ -19,14 +20,14 @@ include "header.php";
 	    		<div class="hsContent">
 	    			<div class="navigation">
 						<h1 id="title" alt="Jacob Hook" title="Jacob Hook"><a href="index.php">Jacob Hook</a></h1>
-						<p style="color:white;font-family: 'Raleway', sans-serif;">Website Under Construction</p>
-						<!--div class="links"><a class="links" href="work.php">Work</a> | <a class="links" href="blog.php">Blog</a> | <a class="links" href="contact.php"> Contact</a></div-->
+						<!--p style="color:white;font-family: 'Raleway', sans-serif;">Website Under Construction</p-->
+						<div class="links"><a class="links" href="work.php">Work</a> | <a class="links" href="blog.php">Blog</a> | <a class="links" href="contact.php"> Contact</a></div>
 					</div>
 	    		</div>
 	    	</div>
 		</div>
 	</section>
-	<!--section id="slide-2" class="homeSlide" alt="Jacob Hook" title="Jacob Hook">
+	<section id="slide-2" class="homeSlide" alt="Jacob Hook" title="Jacob Hook">
 		<div class="bcg">
 	    	<div class="hsContainer">
 	    		<div class="hsContent">
@@ -41,7 +42,7 @@ include "header.php";
 	    	<div class="hsContainer">
 				<div class="hsContent">
 	    		<div class="spacer"></div>
-					<h2 class="page-titles"><a href="work.php">BLOG</a></h2>
+					<h2 class="page-titles"><a href="blog.php">BLOG</a></h2>
 	    		</div>
 	    	</div>
 	    </div>
@@ -51,12 +52,15 @@ include "header.php";
 	    	<div class="hsContainer">
 				<div class="hsContent">
 	    		<div class="spacer"></div>
-					<h2 class="page-titles"><a href="work.php">CONTACT</a></h2>
+					<h2 class="page-titles"><a href="contact.php">CONTACT</a></h2>
 	    		</div>
 	    	</div>
 	    </div>
-	</section-->
+	</section>
 </main>
+<script src="js/skrollr.js"></script>
+<script src="js/_main.js"></script>
+<script src="js/vendor/modernizr-2.7.1.min.js"></script>
 <?php
 include "footer.php";
 ?>

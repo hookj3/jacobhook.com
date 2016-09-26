@@ -18,9 +18,8 @@ include_once("analyticstracking.php");
 	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="js/vendor/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<body class="loading mainContainer" id="home">

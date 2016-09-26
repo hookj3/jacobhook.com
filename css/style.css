@@ -26,6 +26,10 @@ p{
 .altLinks{
 	font-family: 'Raleway', sans-serif;
 }
+.blogText
+{
+	color:#919191;
+}
 a{
 	text-align: center;
 }
@@ -57,6 +61,12 @@ a{
 .container div{
 	display:none;
 }
+.blogTitleInfo
+{
+	padding-top:0px;
+	padding-bottom:5px;
+	margin:0px;
+}
 /* media queries */
 @media (max-width: 991px){
 	.spacer{
@@ -69,6 +79,18 @@ a{
 	}
 }
 /* bootstrap overrides */
+.col-md-4
+{
+	padding:2px;
+}
+.col-xs-4
+{
+	padding:2px;
+}
+.modal-body
+{
+	padding:0px;
+}
 .navbar-fixed-bottom, .navbar-fixed-top{
 	left:95%;
 }
