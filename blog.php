@@ -12,8 +12,8 @@ include "header.php";
 </div>
 <br/>
 <br/>
-<div class="col-md-4"></div>
-<div class="col-md-4 blogText">
+<div class="col-md-2"></div>
+<div class="col-md-8 blogText">
 	<h5 class="blogTitleInfo">Terry &amp; Jill</h5>
 	<h6 class="blogTitleInfo">Sept 10, 2016</h6>
 	<div id="loadImg">
@@ -21,7 +21,7 @@ include "header.php";
 			$dirname = "img/terryandjill/";
 			$images = glob($dirname."*.jpg");
 			foreach($images as $image) {
-				echo '<img style="width:100%;" src="'.$image.'" />';
+				echo '<img alt="Jacob Hook" title="Jacob Hook" style="width:100%;" src="'.$image.'" />';
 			}
 		?>
 	</div>
@@ -32,7 +32,7 @@ include "header.php";
 	  </ul>
 	</nav>
 </div>
-<div class="col-md-4"></div>
+<div class="col-md-2"></div>
 <!--script type="text/javascript">
 $(function(){
 	var folder = "img/terryandjill";

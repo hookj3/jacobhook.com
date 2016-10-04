@@ -13,13 +13,13 @@ include "header.php";
 	</div>
 </div>
 <div class="row">
-  <div class="col-md-4"></div>
-	<div class="col-md-4">
+  <div class="col-md-2"></div>
+	<div class="col-md-8">
     <?php
       $dirname = "img/work/";
       $images = glob($dirname."*.jpg");
       foreach($images as $image) {
-        echo '<img style="width:100%;padding:1px;" src="'.$image.'" />';
+        echo '<img alt="Jacob Hook" title="Jacob Hook" style="width:100%;padding:1px;" src="'.$image.'" />';
       }
     ?>
     <!--div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -158,7 +158,7 @@ include "header.php";
       </a>
     </div-->
 	</div>
-  <div class="col-md-4"></div>
+  <div class="col-md-2"></div>
 </div>
 <?php
 include "footer.php";

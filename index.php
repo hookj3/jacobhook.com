@@ -7,10 +7,10 @@ include "header.php";
 <![endif]-->
 <a href="#home" class="backToTop" alt="Back To Top" alt="Back To Top"><img src="img/backToTop.png" class="navbar-fixed-bottom"></a>
 <div id="preload">
-	<img src="img/home.jpg">
-	<img src="img/portfolio.jpg">
-	<img src="img/blog.jpg">
-	<img src="img/contact.jpg">
+	<img src="img/work/home.jpg">
+	<img src="img/work/portfolio.jpg">
+	<img src="img/work/beerz.jpg">
+	<img src="img/work/contact.jpg">
 </div>
 <main>
 	<section id="slide-1" class="homeSlide" alt="Jacob Hook" title="Jacob Hook">
@@ -53,6 +53,7 @@ include "header.php";
 				<div class="hsContent">
 	    		<div class="spacer"></div>
 					<h2 class="page-titles"><a href="contact.php">CONTACT</a></h2>
+					<p style="text-align:center;"><strong>Phone:</strong> <a class="phone-mobile" style="color:white;" href="tel:616-337-7254">(616) 337-7252</a><br /> <strong>Email:</strong><a href="mailto:jacob@jacobhook.com" style="color:white;letter-spacing:2;"> jacob@jacobhook.com</a></p>
 	    		</div>
 	    	</div>
 	    </div>
