@@ -11,9 +11,12 @@ include_once("analyticstracking.php");
     <title>Jacob Hook | Photographer</title>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="language" content="english" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Jacob Hook | Photographer">
+    <meta name="copyright" content="&copy; 2016 Jacob Hook">
     <meta name="keywords" content="Jacob, Hook, JacobHook, Jacob Hook, Jacob Hook Photography, Photography, Photographer, Photos, Weddings Photos, Wedding Pictures, Senior Pictures, Senior Photos, Newborn Photographer, Senior Portrait Photographer, Wedding Photographer, Portraits, Portrait Photographer.">
-    <meta name="description" content="Jacob Hook is a photographer based in Bay City, Michigan with ties in Grand Rapids, Michigan. He shoots anything portrait style and any event or occasion." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="Jacob Hook is a photographer based in Bay City, Michigan available for all events." />
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"></link>
 	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">

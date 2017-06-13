@@ -2,7 +2,8 @@
 include "header.php";
 ?>
 </head>
-<body class="mainContainer" id="home">
+<body class="mainContainer" id="blog">
+<a href="#blog" class="backToTop" alt="Back To Top" alt="Back To Top"><img src="img/backToTopBlk.png" class="navbar-fixed-bottom"></a>
 <div class="secondaryPages">
 	<div class="navigation">
 		<h1 class="altNav altTitle" alt="Jacob Hook" title="Jacob Hook"><a href="index.php">Jacob Hook</a></h1>

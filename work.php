@@ -2,7 +2,8 @@
 include "header.php";
 ?>
 </head>
-<body class="loading mainContainer" id="home">
+<body class="loading mainContainer" id="work">
+<a href="#work" class="backToTop" alt="Back To Top" alt="Back To Top"><img src="img/backToTopBlk.png" class="navbar-fixed-bottom"></a>
 <div class="secondaryPages">
 	<div class="navigation">
 		<h1 class="altNav altTitle" alt="Jacob Hook" title="Jacob Hook"><a href="index.php">Jacob Hook</a></h1>
@@ -18,8 +19,9 @@ include "header.php";
     <?php
       $dirname = "img/work/";
       $images = glob($dirname."*.jpg");
+      shuffle($images);
       foreach($images as $image) {
-        echo '<img alt="Jacob Hook" title="Jacob Hook" style="width:100%;padding:1px;" src="'.$image.'" />';
+        echo '<img alt="Jacob Hook" title="Jacob Hook" style="width:100%;padding:1px;" src="'. $image .'" />';
       }
     ?>
     <!--div id="carousel-example-generic" class="carousel slide" data-ride="carousel">

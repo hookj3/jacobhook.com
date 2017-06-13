@@ -7,10 +7,10 @@ include "header.php";
 <![endif]-->
 <a href="#home" class="backToTop" alt="Back To Top" alt="Back To Top"><img src="img/backToTop.png" class="navbar-fixed-bottom"></a>
 <div id="preload">
-	<img src="img/work/home.jpg">
-	<img src="img/work/portfolio.jpg">
-	<img src="img/work/beerz.jpg">
-	<img src="img/work/contact.jpg">
+	<img src="img/home.jpg">
+	<img src="img/portfolio.jpg">
+	<img src="img/beerz.jpg">
+	<img src="img/contact.jpg">
 </div>
 <main>
 	<section id="slide-1" class="homeSlide" alt="Jacob Hook" title="Jacob Hook">

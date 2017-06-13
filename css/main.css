@@ -98,21 +98,21 @@ main {
 }
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/work/home.jpg')}
+#slide-1 .bcg {background-image:url('../img/work/jacob-hook-19.jpg')}
 #slide-1 .hsContent {
 	bottom: 200px;
 	top: auto;
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/work/portfolio.jpg')}
+#slide-2 .bcg {background-image:url('../img/portfolio.jpg')}
 #slide-2 .hsContent {
 	bottom: 200px;
 	top: auto;
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/work/beerz.jpg')}
+#slide-3 .bcg {background-image:url('../img/beerz.jpg')}
 #slide-3 .hsContent {
 }
 	#slide-3 h2 {
@@ -120,7 +120,7 @@ main {
 	}
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/work/contact.jpg')}
+#slide-4 .bcg {background-image:url('../img/contact.jpg')}
 #slide-4 .hsContent {
 }
 	#slide-4 h2 {
